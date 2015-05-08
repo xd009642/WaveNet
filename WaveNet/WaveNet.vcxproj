@@ -64,6 +64,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Wavelon.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="layer.h" />
+    <ClInclude Include="wavelets.h" />
+    <ClInclude Include="Wavelon.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -9,10 +9,11 @@ namespace wnn
 	class Network
 	{
 	public:
-		void addInputLayer(int in, int out);
-		void addLayer(int in, int out);
+		Network(int inputs, int wavelons);
+		double process(std::vector<double> in);
 	private:
-		std::vector<wnn::Layer> layers;
+		wnn::WavelonLayer wavelons;
+		wnn::OutputLayer out;
 	};
 
 }

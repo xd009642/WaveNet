@@ -64,11 +64,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BackPropTrainer.cpp" />
+    <ClCompile Include="Layer.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Network.cpp" />
     <ClCompile Include="Wavelon.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BackPropTrainer.h" />
     <ClInclude Include="layer.h" />
+    <ClInclude Include="network.h" />
     <ClInclude Include="wavelets.h" />
     <ClInclude Include="Wavelon.h" />
   </ItemGroup>

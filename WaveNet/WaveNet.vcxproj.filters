@@ -21,6 +21,15 @@
     <ClCompile Include="Wavelon.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Layer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Network.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BackPropTrainer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Wavelon.h">
@@ -30,6 +39,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="network.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BackPropTrainer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -25,3 +25,8 @@ std::vector<double> wnn::Layer::process(std::vector<double> in)
 	}
 	return res;
 }
+
+std::vector<double>& wnn::Layer::getWeights()
+{
+	return weights;
+}

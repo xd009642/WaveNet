@@ -10,6 +10,8 @@ namespace wnn
 	public:
 		Layer(int in, int out);
 		std::vector<double> process(std::vector<double> in);
+
+		std::vector<double>& getWeights();
 	private:
 		std::vector<Wavelon> wavelons;
 		std::vector<double> weights;
